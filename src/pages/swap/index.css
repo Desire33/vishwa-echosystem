@@ -1,0 +1,325 @@
+.swap-container{
+    background: #F1F5FF;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.swap-nav{
+    margin-bottom: 32px;
+    height: 80px;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0 20px;
+}
+.swap-content{
+    /*width: 100%;*/
+    margin: 0 10px;
+}
+
+.swap-logo img{
+    width: 120px;
+    height: 34px;
+}
+.swap-btn{
+    width: 156px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #000000;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.content-title{
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    line-height: 47px;
+    text-align: center;
+    margin-top: 112px;
+}
+.content-form{
+    margin-top: 40px;
+    background: #FFFFFF;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #E5E5E5;
+    position: relative;
+}
+.content-form-from{
+    border-bottom: 1px solid #E5E5E5;
+}
+.content-form-item{
+    padding: 0 16px;
+}
+.item-title{
+    font-weight: 600;
+    font-size: 16px;
+    color: #777777;
+    margin: 16px 0;
+}
+.item-box{
+    height: 80px;
+    background: #F7F7F7;
+    border-radius: 20px 20px 20px 20px;
+    padding: 18px 16px;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+}
+.item-box-name{
+    font-weight: 500;
+    font-size: 36px;
+    color: #7364AE;
+    line-height: 42px;
+}
+.item-box-name .ant-input-number-input-wrap,.item-box-name .ant-input-number-input{
+    height: 44px;
+    line-height: 44px;
+    font-size: 36px;
+    color: #7364AE;
+}
+.item-box-name .ant-input-number:hover{
+    outline: none !important;
+    border-color: transparent !important;
+    border-line-end-width: 0px !important;
+    box-shadow: none !important;
+}
+.ant-input-number-focused{
+    outline: none;
+    border: none !important;
+    border-line-end-width: 0px;
+    box-shadow: none !important;
+}
+.item-box-name .ant-input-number-input{
+    outline: none;
+}
+.item-box-name .ant-input-number-input::placeholder{
+    color: #7364ae3b;
+}
+.item-box-select{
+    cursor: pointer;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    border: 1px solid #E5E5E5;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+.item-box-select-content span{
+    margin-right: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+.item-box-token{
+    cursor: pointer;
+    height: 40px;
+    background: #00AEFF;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+.item-box-token-content span{
+    white-space: nowrap;
+    margin-right: 8px;
+}
+.item-box-select-content img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.content-form-gap-wrap{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    cursor: pointer;
+}
+.content-form-gap{
+    width: 44px;
+    height: 44px;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff url('../../assets/image/icon_transform.png') 50% 50% no-repeat;
+    background-size: 16px 18px;
+}
+.content-form-gap:hover{
+    border-color: #905FFE;
+    background: #fff url('../../assets/image/icon_transform_hover.png') 50% 50% no-repeat;
+    background-size: 32px 32px;
+}
+.content-form-gap img{
+    width: 16px;
+    height: 18px;
+}
+.content-btn{
+    margin-top: 32px;
+    height: 58px;
+    background: #8B5BFF;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 58px;
+    cursor: pointer;
+}
+.modal-wrap{}
+.modal-search{
+    margin-top: 12px;
+    height: 48px;
+    background: #F9F9F9;
+    border-radius: 48px;
+    position: relative;
+}
+.modal-search .icon-arrow-select{
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.modal-search .ant-input-suffix{
+    margin-right: 30px;
+}
+.modal-history{
+    gap: 4px;
+    margin-top: 24px;
+}
+.history-item{
+    width: 70px;
+    height: 70px;
+    background: #F9F9F9;
+    flex-direction: column;
+    border-radius: 16px 16px 16px 16px;
+    cursor: pointer;
+}
+.history-item-icon{
+    margin-bottom: 5px;
+}
+.history-item-icon img{
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+}
+.history-item-name{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    line-height: 16px;
+}
+.modal-list{
+    max-height: 540px;
+    overflow: scroll;
+}
+.modal-list-title{
+    font-weight: 600;
+    font-size: 16px;
+    color: #777777;
+    line-height: 19px;
+    margin-bottom: 15px;
+    margin-top: 24px;
+}
+.token-item{
+    gap: 8px;
+}
+.token-item{
+    height: 68px;
+    cursor: pointer;
+}
+.token-item:hover{
+    background: #F5F5F5;
+}
+.token-item .token-item-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.token-item .token-item-value .value-name{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    line-height: 21px;
+}
+.token-item .token-item-value .value-desc{
+    font-weight: 400;
+    font-size: 14px;
+    color: #888888;
+    line-height: 16px;
+    margin-top: 2px;
+}
+
+.radio-check-list{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.radio-check-list .check-item{
+    width: 200px;
+    cursor: pointer;
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.radio-check-list .check-item .check-item-left img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+.radio-check-list .check-item .anticon svg{
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+}
+.radio-check-list .check-item span{
+    outline: none;
+}
+
+@media (min-width: 600px) {
+    .swap-nav{
+        padding: 0 40px;
+    }
+}
+@media (min-width: 500px) {
+    .swap-content{
+        width: 480px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1400px) {
+    .swap-nav{
+        padding: 0 380px;
+    }
+}
+@media (max-width: 500px) {
+    .item-box-select{
+        max-width: 200px;
+    }
+    .item-box-select-content span{
+        white-space: nowrap;
+        margin-right: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #000000;
+        max-width: 100px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
